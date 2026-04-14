@@ -1,4 +1,4 @@
-# Project 3 - Phishing Attack Simulation
+# Project 5 - Phishing Attack Simulation
 
 ## Objective
 To understand how phishing attacks work and how users can avoid them.
