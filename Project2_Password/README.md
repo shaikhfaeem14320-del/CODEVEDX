@@ -1,13 +1,36 @@
-# Project 2 - Password Security & Cracking Analysis
+# Project 2 - Password Cracking using John the Ripper
 
 ## Objective
-To analyze password strength and demonstrate how weak passwords can be cracked using ethical hacking techniques.
+To understand how hashed passwords can be cracked using dictionary attacks.
 
 ## Tools Used
-- Hydra / John the Ripper / Hashcat
+- John the Ripper
+- Kali Linux
+- rockyou.txt wordlist
 
-## Description
-This project focuses on testing password security by performing controlled password cracking on sample data. It helps understand the difference between weak and strong passwords.
+## Lab Setup
+- Attacker Machine: Kali Linux
+- Target: Simulated password hash
+- Environment: Virtual Machine (VMware)
 
-## Outcome
-Understanding of password vulnerabilities, cracking techniques, and how to create strong and secure passwords.
+## Methodology
+
+1. Created a password hash using MD5:
+ printf "berry123" | md5sum
+
+2. Saved the hash into a file:
+ echo "62190c24a0a68fda9e2a15bd5987e9fa" > hash.txt
+
+3. Ran John the Ripper with a wordlist:
+   john --format=raw-md5 hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+
+4. Displayed the cracked password:
+   john --show --format=raw-md5 hash.txt
+
+## Result
+- Password successfully cracked: **berry123**
+
+## Key Learning
+- Hashing is not encryption and can be reversed using attacks.
+- Wordlist plays a crucial role in cracking success.
+- Even simple passwords are highly vulnerable.
