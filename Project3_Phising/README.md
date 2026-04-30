@@ -37,6 +37,8 @@ To understand how phishing attacks work and how user credentials can be captured
 * Even simple forms can capture sensitive data
 * Awareness is the best defense against phishing
 
-## Disclaimer
+## Screenshot
+![Output](Screenshot.png)
 
+## Disclaimer
 This project is created strictly for educational purposes in a controlled environment. Do not use these techniques on real users or systems without proper authorization.
