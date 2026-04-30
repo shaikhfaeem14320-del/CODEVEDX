@@ -34,3 +34,7 @@ To understand how hashed passwords can be cracked using dictionary attacks.
 - Hashing is not encryption and can be reversed using attacks.
 - Wordlist plays a crucial role in cracking success.
 - Even simple passwords are highly vulnerable.
+
+## Conclusion
+
+This project demonstrated how weak passwords can be easily cracked using dictionary attacks. It highlights the importance of using strong and complex passwords in real-world systems.
