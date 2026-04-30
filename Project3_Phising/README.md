@@ -38,7 +38,7 @@ To understand how phishing attacks work and how user credentials can be captured
 * Awareness is the best defense against phishing
 
 ## Screenshot
-![Output](Screenshot.png)
+![Output](Project3_Phising/Screenshot-1.png)
 
 ## Disclaimer
 This project is created strictly for educational purposes in a controlled environment. Do not use these techniques on real users or systems without proper authorization.
